@@ -4,20 +4,81 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin:0 auto;
 }
 
-div{
+header,footer, nav {
     background: #ebebeb;
     margin: 10px;
     text-align: center;
     padding: 30px;
+    clear:both;
+
+}
+.wrapper {
+    
+    display:grid;
+    grid-template-columns: 60% 40%;
+   
+}
+.wrapper > div{
+    
+    background: #ebebeb;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.section {
+    background: #ebebeb;
+    color: #777;
+   
+    padding: 25px;
 
 }
 
+.article {
+    background: #777;
+    color: #ebebeb;
+   
+    padding: 15px;
+
+}
+
+.article > h1,p {
+
+    background: #ebebeb;
+    color: #777;
+  
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+
+
+
+}
+
+/* 
 .left {
+    background: #ebebeb;
     width: 495px;
     margin: 10px;
+    padding: 30px;
+    border: 1px solid #000;
     float: left;
-   border: 5px solid #000;
+    clear:both;
+ 
 }
+
+.right {
+    background: #ebebeb;
+    width: 400px;
+    margin: 10px;
+    padding: 30px;
+    border: ßpx solid #000;
+    float: right;
+    clear:both;
+} */
+
 
